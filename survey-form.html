@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Survey Ngaji</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h2>Madrasah Diniyah Al-Qur'aniyah</h2>
+		<h1 id="title">SURVEY PEMBELAJARAN BACA-TULIS AL-QUR'AN</h1>
+		<p id="description">Isi survey dibawah ini dengan sejujur-jujurnya</p>
+		<form id="survey-form" class="isi">
+			<fieldset>
+				<label class="info">Data Siswa</label>
+				<label id="name-label">Nama Lengkap:<input type="text" id="name" name="nama" placeholder="Nama Anak" required /><label>
+				<label id="number-label">Umur: <input type="number" id="number" name="umur" min="1" max="100" placeholder="Umur Anak" required /></label>
+			</fieldset>
+			<fieldset>
+				<label class="info">Data Orang Tua/Wali</label>
+				<label>Nama Orang Tua/Wali: <input type="text" id="ortu" name="ortu" placeholder="Nama Orang Tua" required /></label>
+				<label>Alamat: <textarea id="alamat"></textarea></label>
+				<label>Nomor Telfon: <input type="text" id="tlpn" name="tlpn" pattern="[0-9]{12}" placeholder="Nomor Telfon Orang tua/Wali" required /></label
+				<label id="email-label">Email: <input type="email" id="email" name="email" placeholder="Email Orang Tua/Wali" required /></label>
+			</fieldset>
+			<fieldset>
+				<label class="info">Survey Pembelajaran</label>
+				<label>Sudah mengikuti pembelajaran baca-tulis Al-Qur'an?</label>
+				<select id="dropdown" name="ngaji">
+					<option value="sudah">Sudah</option>
+					<option value="belum">Belum</option>
+				</select>
+				<label>Pilih Kelas Mengaji:</label>
+				<label><input type="radio" name="kelas" class="inline" value="sore" /> Sore</label>
+				<label><input type="radio" name="kelas" class="inline" value="malam" /> Malam</label>
+				<label>Kelengkapan penunjang pembelajaran:</label>
+				<label><input type="checkbox" id="kelengkapan" value="quran" class="inline" /> Al-Qur'an</label>
+				<label><input type="checkbox" id="kelengkapan" value="meja" class="inline" /> Meja baca Al-Qur'an</label>
+				<label><input type="checkbox" id="kelengkapan" value="papan" class="inline" /> Papan tulis</label>
+			</fieldset>
+			<fieldset>
+				<label><input type="checkbox" id="peraturan" value="sedia" class="inline" /> Survei ini diisi dengan sejujur-jujurnya sesuai dengan kenyataan yang ada.</label>
+			</fieldset>
+			<input type="submit" id="submit" class="submit"></button>
+		<form>
+		<footer>
+			<p>© 2022 Yunita Maulinda - <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a></p>
+		</footer>
+	</body>
+</html>
