@@ -1,0 +1,86 @@
+body {
+	background-color: #223055;
+	color: #ffffff;
+	font-family: Trebuchet MS;
+	font-size: 16px;
+}
+
+h1, h2, p {
+	margin: auto;
+	text-align: center;
+}
+
+.isi {
+	background-color: #ffe1e8;
+	color: #000000;
+	margin: 30px 20px 30px 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+fieldset {
+	border: none;
+	padding: 1em 0;
+}
+
+fieldset:not(:last-of-type) {
+	border-bottom: 2px solid #223055;
+}
+
+.info {
+	margin: 0 0 20px 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	margin: 1rem 0;
+}
+
+input, textarea, select {
+	margin: 5px 0 0 0;
+	width: 100%;
+	min-height: 2em;
+	border: 2px solid #b0b7c0;
+	border-radius: 8px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width: 5%;
+}
+
+.inline {
+	margin: 0 0.5em 0 0;]
+	vertical-align: middle;
+}
+
+.submit {
+	display: block;
+	width: 100%;
+	background-color: #b0b7c0;
+	border-color: #8e9090;
+	margin: auto;
+}
+
+footer {
+	margin: 50px 0 0 0;
+	font-size: 12px;
+}
+
+a {
+	color: #000000;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: #223055;
+}
+
+a:active {
+	color: #ffffff;
+}
